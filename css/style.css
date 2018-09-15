@@ -134,6 +134,10 @@ form {
             0px 8px 13px rgba(0, 0, 0, 0.1),
             0px 18px 23px rgba(0, 0, 0, 0.1);
 }
+#title {
+  font-family: 'Fredericka the Great', cursive;
+
+}
 .textShadow {
   text-shadow: 1px 1px 10px rgba(0, 0, 0, .7),
             3px 3px 30px rgba(0, 0, 0, .5),
