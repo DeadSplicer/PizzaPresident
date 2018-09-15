@@ -224,7 +224,11 @@ a:hover {
   text-shadow: 1px 1px 10px rgba(255, 255, 255, .7),
             3px 3px 30px rgba(255, 255, 255, .5),
             0px 0px 50px rgba(255, 255, 255, .2);
-
+  /* background-color: red; */
+}
+.invert {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 
 hr {
@@ -322,6 +326,11 @@ p {
   padding-bottom: 40px;
   margin: 0px 18px 0px 18px;
 }
+
+.nopad {
+  padding: 0px;
+}
+
 .backdrop {
   background-color: rgba(255,255,255,.6);
   outline: 6px solid rgba(0,0,0,.1);
@@ -337,6 +346,13 @@ p {
   box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.1);
             /* 0px 8px 13px rgba(0, 0, 0, 0.1),
             10px 18px 23px rgba(0, 0, 0, 0.1); */
+}
+.glow {
+text-shadow: 1px 1px 10px rgba(255, 255, 255, .7), 3px 3px 30px rgba(255, 255, 255, .5), 0px 0px 50px rgba(255, 255, 255, .2)
+
+}
+.white {
+  color: white;
 }
 
 
@@ -357,6 +373,10 @@ p {
 }
 .button:hover{
   /*background-color: #d60606;*/
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, .7),
+            3px 3px 30px rgba(255, 255, 255, .5),
+            0px 0px 50px rgba(255, 255, 255, .2);
+
   color: #ff9b3d;
   text-decoration: none;
   /* background-color: rgba(255, 255, 255, 1); */
@@ -379,7 +399,7 @@ p {
 
   text-decoration: none;
   /*color: #d60606;*/
-  color: #d60606;
+  color: #ff9b3d;
 }
 .button3{
   border: none;
@@ -398,11 +418,14 @@ p {
 
   text-decoration: none;
   /*color: #d60606;*/
-  color: #d60606;
+  color: #ff9b3d;
 }
 
 .menu_button{
-  border: 1px #ff9b3d;
+  border-top: 1px #ff9b3d;
+  border-bottom: 1px #ff9b3d;
+  border-right: 1px black;
+  border-left: 1px black;
   border-style: ridge;
   text-align: center;
   background: black;

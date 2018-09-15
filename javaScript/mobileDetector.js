@@ -26,6 +26,7 @@ if (isMobile.matches) {
   $("div#headerImage").hide();
   $("div .homeImage").hide();
   $(".fixedbg").attr("class", "fixedbgMobile");
+  $(".darkicons").attr("class", "invert");
   // $("div p .button2").addClass("center");
 
 }
